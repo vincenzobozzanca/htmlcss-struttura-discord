@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+
+    
+ 
+    background-color: #add8e6; /* Light Blue */
+    padding: 1em;
+}
+.container {
+	widrh: 70%;
+	max-width: 1100px;
+	margin: 0auto;
+}
+.header-section {
+	padding: 10px;
+	
+}
+
+.row{
+	background-color: rgb(218,165 ,32);
+	border :1px dashed black;
+	display: flex;
+	justify-content: space-between;
+	padding : 10px;
+	
+}
