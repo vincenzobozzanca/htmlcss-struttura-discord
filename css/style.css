@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+	
 }
 
 
@@ -17,10 +18,7 @@
 	max-width: 1100px;
 	margin: 0auto;
 }
-.header-section {
-	padding: 10px;
-	
-}
+
 
 .row{
 	background-color: rgb(218,165 ,32);
@@ -29,4 +27,26 @@
 	justify-content: space-between;
 	padding : 10px;
 	
+}
+
+.section1{
+	background-color: rgb(0, 0, 0); 
+}	
+.section2{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6em;
+	background-color: blue;
+}
+
+
+
+.section2 .pink {
+    background-color: pink;
+	min-width: 1000px;
+	min-height: 500px;
+	max-width: 2000px;
+	max-height: 500px;
+   
 }
