@@ -1,100 +1,156 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-	
 }
-
 
 .header {
-
-    
- 
-    background-color: #add8e6; /* Light Blue */
-    padding: 1em;
+    background-color: #00bbff9a;
+    height: 70px;
+    padding: 10px;
 }
+
 .container {
-	width: 70%;
-	max-width: 1100px;
-	margin: 0auto;
+    width: 70%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.row {
+    border: 1px dashed #000000;
+    background-color: #dea702;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px;
 }
 
 
-.row{
-	background-color: rgb(218,165 ,32);
-	border :1px dashed black;
-	display: flex;
-	justify-content: space-between;
-	padding : 10px;
-	
-}
-
-
-.section1{
-	display: flex;
+.blue-section {
+    background-color: #0000a3;
+    height: 400px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    padding: 6em;
-	background-color: blue;
 }
 
-
-
-.section1 .pink {
-    background-color: pink;
-	min-width: 1000px;
-	min-height: 500px;
-	max-width: 2000px;
-	max-height: 500px;
-   
+.box-pink {
+    background-color: #ff87fd;
+    border: 1px solid #000000;
+    border: 1px dashed #000000;
+    height: 300px;
+    width: 700px;
 }
 
-.section2{
-	display: flex;
+.white-background {
+    background: #ffffff;
+    display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5em;
-	
-	background-color: rgb(255, 255, 255);
 }
 
-.section2 .blue{
-    background-color: rgb(3, 58, 255);
-	min-width: 1000px;
-	min-height: 500px;
-	max-width: 2000px;
-	max-height: 500px;
-}
-.section2 .pink{
-    background-color: rgb(97, 0, 91);
-	min-width: 500px;
-	min-height: 500px;
-	max-width: 500px;
-	max-height: 500px;
-}
-
-.section3{
-	display: flex;
+.main-container {
+    width: 60%;
+    display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5em;
-	
-	background-color: rgb(184, 184, 184);
 }
 
-.section3 .box-blue{
-    background-color: rgb(97, 0, 91);
-	min-width: 500px;
-	min-height: 500px;
-	max-width: 500px;
-	max-height: 500px;
+.box-blue {
+    background-color: #4080ff;
+    border: 1px dashed #000000;
+    height: 400px;
+    width: 60%;
 }
-.section3 .box-pink{
-   
 
-	background-color: rgb(3, 58, 255);
-	min-width: 1000px;
-	min-height: 500px;
-	max-width: 2000px;
-	max-height: 500px;
+.box-pink2 {
+    background-color: #fdbafc;
+    border: 1px dashed #000000;
+    height: 400px;
+    width: 40%;
+}
+
+.grey-background {
+    background-color: #cacaca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-pink2 {
+    background-color: #fdbafc;
+    border: 1px dashed #000000;
+    height: 400px;
+    width: 40%;
+}
+
+.box-blue {
+    background-color: #4080ff;
+    border: 1px dashed #000000;
+    height: 400px;
+    width: 60%;
+}
+
+.green-box {
+    background-color: #00a941;
+    border: 1px dashed #000000;
+    width: 60%;
+    height: 800px;
+    margin: 30px 0;
+}
+
+
+section {
+    padding: 30px 0;
+}
+
+
+.black-background {
+    background-color: #383838;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.box-red {
+    background-color: #cb4646;
+    border: 1px dashed #000000;
+    height: 500px;
+    width: 40%;
+}
+
+.box-green {
+    background-color: #2ebaa7;
+    border: 1px dashed #ffffff;
+    height: 500px;
+    width: 15%;
+}
+
+.row-footer {
+    background-color: #008051;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+}
+
+.black-background-footer {
+    background-color: #383838;
+    border-top: 1px solid #cacaca;
+    border-bottom: 1px solid #cacaca;
+}
+
+
+.logo {
+    background-color: #cb4646;
+    border: 1px dashed #000000;
+    padding: 10px;
+}
+
+.bottone {
+    background-color: #cb4646;
+    border: 1px dashed #000000;
+    padding: 10px;
 }
